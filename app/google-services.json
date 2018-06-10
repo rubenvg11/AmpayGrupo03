@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "212988211662",
+    "firebase_url": "https://ampay-bd802.firebaseio.com",
+    "project_id": "ampay-bd802",
+    "storage_bucket": "ampay-bd802.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:212988211662:android:8a2688916c8ffc28",
+        "android_client_info": {
+          "package_name": "com.acampdev.borisalexandrcamposrios.ampay"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "212988211662-4po369ve87psrf13a9vgcfd2r3d0hjfe.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.acampdev.borisalexandrcamposrios.ampay",
+            "certificate_hash": "e14ca1e07e17113091bdffe6a0c088aef83d5b35"
+          }
+        },
+        {
+          "client_id": "212988211662-aveauuntq55t76bvuvav591pgng2npae.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "212988211662-aveauuntq55t76bvuvav591pgng2npae.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCluj4sbBGlMJNkQNxHzaT-KdwquZcW0Aw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "212988211662-aveauuntq55t76bvuvav591pgng2npae.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

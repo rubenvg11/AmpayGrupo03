@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:layout_marginBottom="10dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:singleLine="true"
+        android:gravity="center"
+        android:text="Registra a tu Familiar"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="15dp"/>
+
+    <EditText
+        android:id="@+id/addNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/ic_action_add_user"
+        android:hint="Nombre y Apellidos"
+        android:drawablePadding="5dp"
+        android:singleLine="true"
+        android:inputType="text"
+        android:layout_marginBottom="15dp"/>
+
+
+    <EditText
+        android:id="@+id/addDniPersona"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/ic_action_dni"
+        android:hint="D.N.I"
+        android:drawablePadding="5dp"
+        android:singleLine="true"
+        android:inputType="number"
+        android:layout_marginBottom="15dp"/>
+
+    <EditText
+        android:id="@+id/addDirPersona"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/ic_action_add_map"
+        android:hint="Dirección"
+        android:drawablePadding="5dp"
+        android:singleLine="true"
+        android:inputType="text"
+        android:layout_marginBottom="15dp"/>
+
+    <EditText
+        android:id="@+id/addPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawablePadding="5dp"
+        android:singleLine="true"
+        android:drawableStart="@drawable/ic_action_add_phone"
+        android:hint="Celular"
+        android:inputType="phone"
+        android:layout_marginBottom="15dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="15dp">
+
+        <TextView
+            android:id="@+id/imgFamIco"
+            android:layout_width="40dp"
+            android:layout_height="22dp"
+            android:drawableStart="@drawable/ic_action_add_friends"/>
+
+
+        <Spinner
+            android:id="@+id/addParentesco"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:entries="@array/parentesco"
+            />
+
+    </LinearLayout>
+
+
+
+    <Button
+        android:id="@+id/addGuardarFamiliar"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_register_personas"
+        android:text="Registrase"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

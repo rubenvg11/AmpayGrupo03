@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Ampay</string>
+    <string name="title_app">¡AMPAY!</string>
+    <string name="username">Usuario</string>
+    <string name="pass">Password</string>
+    <string name="login">Acceder</string>
+    <string name="register">Registrate</string>
+    <string name="name">Nombre y Apellido</string>
+    <string name="user">Usuario</string>
+    <string name="email">Email</string>
+    <string name="repass">Escriba Password</string>
+    <string name="registrarme">Registrarme</string>
+    <string name="pregunta">¿Ya estas registrado?</string>
+    <string name="iniciar">INICIAR SESIÓN</string>
+    <string name="profile">Ruben Vargas Gutierrez</string>
+    <string name="menu_listarUbicaciones">Ubicaciones</string>
+    <string name="menu_registroFamiliar">Registrar Familiar</string>
+    <string name="menu_localizacion">Localización Tiempo Real</string>
+    <string name="menu_version">Versión</string>
+    <string name="menu_soporte">Soporte Contactos</string>
+    <string name="menu_salir">Cerrar Sesión</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="parentesco">Tipo de Parentesco</string>
+    <string name="cel">Cel:</string>
+    <string name="dni">DNI:</string>
+    <string name="family">Mostrar Familiares</string>
+    <string name="mensaje_general">Para todos nuestros usuarios los números de atención
+    sobre dudas o uso del servicio brindado no duden en contactarnos gracias.</string>
+    <!-- Array String Spinner -->
+    <string-array name="parentesco">
+        <item>Selecciona tu Parentesco</item>
+        <item>Abuelo</item>
+        <item>Abuela</item>
+        <item>Papá</item>
+        <item>Mamá</item>
+        <item>Hermano</item>
+        <item>Hermana</item>
+        <item>Amigo</item>
+        <item>Amiga</item>
+        <item>Sobrino</item>
+        <item>Sobrina</item>
+
+
+    </string-array>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

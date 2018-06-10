@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4E0045</color>
+    <color name="colorPrimaryDark">#4E0045</color>
+    <color name="colorAccent">#ffff</color>
+
+    <color name="skyBlue">#00BEFF</color>
+    <color name="blueblack">#2E5DFB</color>
+    <color name="ceramic">#FCFDFC</color>
+    <color name="white">#ffff</color>
+    <color name="toledo">#37001E</color>
+    <color name="hodMagenta">#FF00CD</color>
+    <color name="goldenYellow">#FFE000</color>
+    <color name="nero">#262626</color>
+    <color name="orange">#FFA600</color>
+    <color name="catskillWhite">#E1E6DE</color>
+
+    <color name="loulou">#4E0045</color>
+    <color name="royalPurple">#7C52B0</color>
+    <color name="trueV">#947CC9</color>
+</resources>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawerLayoutID"
+    android:fitsSystemWindows="true"
+    tools:context=".Activities.MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="10">
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/toolbart"/>
+
+        <FrameLayout
+            android:id="@+id/fragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/fab_plusID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|end"
+                app:backgroundTint="@color/colorPrimary"
+                android:layout_marginBottom="16dp"
+                android:layout_marginEnd="16dp"
+                android:src="@drawable/ic_action_plus"
+                android:elevation="6dp"
+                app:pressedTranslationZ="12dp"/>
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/fab_addID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_action_add"
+                app:backgroundTint="@color/colorPrimary"
+                android:layout_gravity="bottom|end"
+                android:layout_marginBottom="100dp"
+                android:layout_marginEnd="16dp"
+                android:elevation="6dp"
+
+                app:pressedTranslationZ="12dp"
+                android:visibility="invisible"/>
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/fab_mapID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_action_maps"
+                app:backgroundTint="@color/colorPrimary"
+                android:layout_gravity="bottom|end"
+                android:layout_marginBottom="180dp"
+                android:layout_marginEnd="16dp"
+                android:elevation="6dp"
+                app:pressedTranslationZ="12dp"
+                android:visibility="invisible" />
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/navigationView"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:headerLayout="@layout/header"
+        app:menu="@menu/menu"
+        app:itemTextColor="@android:color/black"
+        >
+
+    </android.support.design.widget.NavigationView>
+
+
+
+</android.support.v4.widget.DrawerLayout>

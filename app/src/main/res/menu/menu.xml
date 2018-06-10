@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/registroUbicaciones"
+            android:icon="@drawable/ic_action_add_consultas"
+            android:title="@string/menu_listarUbicaciones"
+            android:checkable="true"
+            >
+
+        </item>
+        <item
+            android:id="@+id/registrarFamiliar"
+            android:icon="@drawable/ic_action_add_toolbar"
+            android:title="@string/menu_registroFamiliar"
+            android:checkable="true"
+            >
+
+        </item>
+        <item
+            android:id="@+id/personViews"
+            android:icon="@drawable/ic_action_family"
+            android:title="@string/family"
+            android:checkable="true"/>
+        <item
+            android:id="@+id/localizacion"
+            android:icon="@drawable/ic_action_add_buscar"
+            android:title="@string/menu_localizacion"
+            android:checkable="true"
+            >
+
+        </item>
+        <item
+            android:id="@+id/soporte"
+            android:icon="@drawable/ic_action_add_contactanos"
+            android:title="@string/menu_soporte"
+            android:checkable="true"
+            >
+
+        </item>
+        <item
+            android:id="@+id/version"
+            android:title="@string/menu_version"
+            android:icon="@drawable/ic_action_add_info"
+            android:checkable="true"
+            >
+
+        </item>
+        <item
+            android:id="@+id/salir"
+            android:title="@string/menu_salir"
+            android:icon="@drawable/ic_action_add_salir"
+            android:checkable="false"
+            >
+
+        </item>
+    </group>
+</menu>
